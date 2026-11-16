@@ -1,0 +1,23 @@
+# Build artifacts and IDE files
+build/
+cmake-build-*/
+.vscode/
+.idea/
+*.o
+*.so
+*.a
+*.out
+__pycache__/
+*.pyc
+# Keep raw videos and large media out of the repository
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.bag
+*.db3
+*.mcap
+# Secrets and local configuration
+.env
+*.key
+*.pem

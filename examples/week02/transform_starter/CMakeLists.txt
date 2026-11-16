@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(week02_transform LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(transform main.cpp)
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+  target_compile_options(transform PRIVATE -Wall -Wextra -Wpedantic)
+endif()

@@ -1,0 +1,14 @@
+[Unit]
+Description=RM Vision Training Heartbeat (safe demo)
+After=multi-user.target
+
+[Service]
+Type=simple
+User=<用户名>
+WorkingDirectory=<绝对路径的文件夹>
+ExecStart=/usr/bin/python3 -u <绝对路径>/heartbeat.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

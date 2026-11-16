@@ -1,0 +1,3 @@
+video_id,scene,camera_model,resolution,fps,crop_or_resize,intrinsics_id,ground_truth,license,notes
+static_001,static,待填写,待填写,待填写,待填写,unverified,none,internal-only,待主力补充
+spin_001,spin,待填写,待填写,待填写,待填写,unverified,none,internal-only,待主力补充
